@@ -1,0 +1,122 @@
+:root {
+  --ink: #111;
+  --muted: #666;
+  --rule: #e5e5e5;
+  --bg: #fff;
+  --link: #0645ad;
+  --max: 38rem;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Charter, "Iowan Old Style", "Source Serif Pro", Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: var(--max);
+  margin: 4rem auto;
+  padding: 0 1.25rem;
+}
+
+header {
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 0.25rem;
+  letter-spacing: -0.01em;
+}
+
+.tagline {
+  margin: 0;
+  color: var(--muted);
+}
+
+h2 {
+  font-size: 1.15rem;
+  margin: 2.5rem 0 1rem;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.35rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+p { margin: 0 0 1rem; }
+
+a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+a:hover { color: var(--ink); }
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.9em;
+  background: #f3f3f3;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.roles {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.roles > li {
+  margin-bottom: 1.75rem;
+}
+
+.role-head {
+  margin-bottom: 0.25rem;
+}
+
+.role-title {
+  font-weight: 600;
+}
+
+.role-company::before { content: " · "; color: var(--muted); }
+
+.role-dates {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.links li { margin: 0.4rem 0; }
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e8e8e8;
+    --muted: #888;
+    --rule: #2a2a2a;
+    --bg: #111;
+    --link: #8ab4f8;
+  }
+  code { background: #1e1e1e; }
+}
