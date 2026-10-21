@@ -66,3 +66,4 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 .xpost blockquote.twitter-tweet{margin:0;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px;color:var(--mut);font-size:15px}
 .xpost blockquote.twitter-tweet p{color:var(--tx);margin:0 0 10px}
 .xpost .twitter-tweet-rendered{margin:0!important}
+.banner{background:var(--warn);color:#1a1200;font-weight:700;text-align:center;padding:9px 0;font-size:15px}.banner a{color:#1a1200}
