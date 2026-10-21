@@ -4,7 +4,7 @@ Updated: 2026-10-21
 
 ## Current state
 
-High-end PHP consulting redesign complete and ready for Michael's review on `redesign/php-rescue-2026-10`, based on production source `85497ba`. Production website, GitHub Pages source settings, DNS, and `main` are unchanged.
+High-end PHP consulting redesign committed, pushed, and ready for Michael's review in draft PR #1 on `redesign/php-rescue-2026-10`, based on production source `85497ba`. Production website, GitHub Pages source settings, DNS, and `main` are unchanged.
 
 Rebuilt homepage and all four supporting pages around nontechnical owners: calm urgency grounded in official PHP advisories, direct personal credibility, practical services, clear process/pricing, FAQs, call/text, callback request with optional preferred time. New responsive visual identity and social artwork. Existing URLs, phone, pricing range, and FormSubmit destination preserved.
 
@@ -24,6 +24,7 @@ Static checks passed for five pages: resources and internal anchors, unique IDs,
 ## References
 
 - Repository: https://github.com/mbbender/michaelbender.net
+- Draft PR: https://github.com/mbbender/michaelbender.net/pull/1
 - Review branch: https://github.com/mbbender/michaelbender.net/tree/redesign/php-rescue-2026-10
 - Production: https://michaelbender.net/
 - DESIGN-REVIEW.md: audit findings, design decisions, sources, validation and limitations.
