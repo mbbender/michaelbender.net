@@ -10,6 +10,10 @@ Rebuilt homepage and all four supporting pages around nontechnical owners: calm 
 
 Added AGENTS.md and this STATUS.md (both previously absent). Personal PROJECTS.md description refreshed.
 
+## Latest update
+
+2026-10-21: Replaced the original headshot with Michael's supplied outdoor corporate portrait on the homepage, About page, and structured-data image URLs. Optimized WebP/JPEG variants, corrected intrinsic dimensions, and regenerated the sharing artwork (including the legacy PNG URL). Desktop portrait placement checked. Update stays in draft PR #1; production is unchanged.
+
 ## Verification
 
 Static checks passed for five pages: resources and internal anchors, unique IDs, image alt text, H1 count, valid JSON-LD. JavaScript syntax and diff whitespace passed. Desktop and 390px phone visual checks; no horizontal overflow on the five pages. Menu, landscape scrolling, software guidance, FAQ expansion, and preferred-time form behavior checked. No inquiry submitted, so FormSubmit delivery remains unverified.
