@@ -23,3 +23,4 @@
 - https://github.com/NCSC-NL/php2shell
 - https://sansec.io/research/php2shell
 - Key point: the flaw is in PHP itself, so even perfectly written website code is exposed until the server is updated.
+- [PHP2Shell updates from X](https://michaelbender.net/updates/): NSA Cyber, Cloudflare, BleepingComputer and others
