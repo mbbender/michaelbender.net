@@ -1,27 +1,29 @@
-# Michael Bender: PHP2Shell emergency response
+# Michael Bender — PHP Security & Recovery
 
-> Michael Bender is a software founder who has built with PHP since 2004 and helps organizations respond to PHP2Shell (CVE-2026-109618 and CVE-2026-109619), the critical unauthenticated remote code execution flaws in PHP disclosed and patched on October 21, 2026. Available immediately. Phone: (919) 810-7503. Contact form: https://michaelbender.net/#contact
+> Direct PHP website security, upgrade, and recovery help for business owners. Michael Bender has built with PHP since 2004. Phone: (919) 810-7503. First conversation is free; contact Michael to discuss urgency and current availability.
 
 ## Services
-- Same-day exposure assessment and a go or no-go on taking sites offline
-- Mitigation, patching to PHP 8.2.35, 8.3.36, 8.4.27 or 8.5.12, and source backports for PHP 7.4, 8.0, 8.1
-- Compromise hunting, credential rotation, hardening and monitoring
-- Upgrade or migration plans for legacy PHP 5.x to 8.1 (Laravel, WordPress, Drupal, Magento, custom)
+- Identify PHP applications and assess their security update status.
+- Coordinate PHP security updates and testing with existing hosting providers.
+- Plan upgrades for older PHP software, including custom applications, WordPress, WooCommerce, Laravel, Drupal, and Magento.
+- Discuss website recovery where compromise is suspected.
+- Agree on the scope, price, and expected interruption before paid work begins.
 
-## Key facts
-- Affected: PHP installations serving web requests, including PHP-FPM, Apache mod_php, php-cgi, FrankenPHP and LiteSpeed. Highest risk on mod_php.
-- PHP 8.1 and older receive no official releases; use vendor backports or the PHP team's minimal source backports.
-- Temporary mitigations reduce specific attack paths but are not a fix.
+## Pricing and contact
+- Typical project range: $500–$3,000. Scope and price depend on the software, its condition, and the work required; each project is quoted individually.
+- Call: +1-919-810-7503
+- Request a free call: https://michaelbender.net/#contact. Requested times are confirmed by Michael; submitting the form does not book an appointment.
 
 ## Pages
-- [PHP2Shell: what it means for your business](https://michaelbender.net/): plain-English risk, three options (patch now, take down, move off PHP), 4-step recovery, FAQ
-- [About Michael Bender](https://michaelbender.net/about/)
+- [Home](https://michaelbender.net/): services, process, common questions, and contact form.
+- [About Michael](https://michaelbender.net/about/): PHP experience and business background.
+- [Pricing](https://michaelbender.net/pricing/): consultation, scope, and project quotes.
+- [Security briefing](https://michaelbender.net/updates/): plain-English PHP2Shell guidance, reviewed October 21, 2026.
 
-## Sources
-- https://www.php.net/
-- https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
-- https://github.com/NCSC-NL/php2shell
-- https://sansec.io/research/php2shell
-- Key point: the flaw is in PHP itself, so even perfectly written website code is exposed until the server is updated.
-- [Pricing](https://michaelbender.net/pricing/): most jobs completed in a few hours for $500 to $3,000; price set per job after a free consultation
-- [PHP2Shell updates from X](https://michaelbender.net/updates/): NSA Cyber, Cloudflare, BleepingComputer and others
+## PHP security context — October 21, 2026
+PHP released fixes for CVE-2026-109618 and CVE-2026-109619 in PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. Older installations may have vendor backports; PHP also supplied minimal source backports for 7.4, 8.0, and 8.1. Temporary mitigations do not fully fix the issue. Check the PHP advisories and the hosting vendor's guidance for current details.
+
+## Official sources
+- [PHP announcements](https://www.php.net/archive/2026.php)
+- [CVE-2026-109618 advisory](https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w)
+- [CVE-2026-109619 advisory](https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp)
