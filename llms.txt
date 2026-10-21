@@ -24,3 +24,4 @@
 - https://sansec.io/research/php2shell
 - Key point: the flaw is in PHP itself, so even perfectly written website code is exposed until the server is updated.
 - [Pricing](https://michaelbender.net/pricing/): most jobs completed in a few hours for $500 to $3,000; price set per job after a free consultation
+- [PHP2Shell updates from X](https://michaelbender.net/updates/): NSA Cyber, Cloudflare, BleepingComputer and others
