@@ -1,0 +1,25 @@
+# Michael Bender: PHP2Shell emergency response
+
+> Michael Bender is a software founder who has built with PHP since 2004 and helps organizations respond to PHP2Shell (CVE-2026-109618 and CVE-2026-109619), the critical unauthenticated remote code execution flaws in PHP disclosed and patched on October 21, 2026. Available immediately. Phone: (919) 810-7503. Contact form: https://michaelbender.net/#contact
+
+## Services
+- Same-day exposure assessment and a go or no-go on taking sites offline
+- Mitigation, patching to PHP 8.2.35, 8.3.36, 8.4.27 or 8.5.12, and source backports for PHP 7.4, 8.0, 8.1
+- Compromise hunting, credential rotation, hardening and monitoring
+- Upgrade or migration plans for legacy PHP 5.x to 8.1 (Laravel, WordPress, Drupal, Magento, custom)
+
+## Key facts
+- Affected: PHP installations serving web requests, including PHP-FPM, Apache mod_php, php-cgi, FrankenPHP and LiteSpeed. Highest risk on mod_php.
+- PHP 8.1 and older receive no official releases; use vendor backports or the PHP team's minimal source backports.
+- Temporary mitigations reduce specific attack paths but are not a fix.
+
+## Pages
+- [PHP2Shell: what it means for your business](https://michaelbender.net/): plain-English risk, three options (patch now, take down, move off PHP), 4-step recovery, FAQ
+- [About Michael Bender](https://michaelbender.net/about/)
+
+## Sources
+- https://www.php.net/
+- https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
+- https://github.com/NCSC-NL/php2shell
+- https://sansec.io/research/php2shell
+- Key point: the flaw is in PHP itself, so even perfectly written website code is exposed until the server is updated.

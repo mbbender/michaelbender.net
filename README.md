@@ -1,11 +1,3 @@
 # michaelbender.net
 
-Source for [michaelbender.net](https://michaelbender.net) — a static personal site hosted on GitHub Pages.
-
-## Editing
-
-- `index.html` — page content (bio, experience, links)
-- `style.css` — styles
-- `CNAME` — custom domain for GitHub Pages
-
-Push to `main` to deploy.
+Static site on GitHub Pages. Push to `main` to deploy. Built Oct 21, 2026. Previous template is on branch `backup/template-2026-10-21`.
