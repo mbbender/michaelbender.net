@@ -1,0 +1,1 @@
+(function(){function u(){var n=document.querySelectorAll('.ago[data-since]');for(var i=0;i<n.length;i++){var h=Math.floor((Date.now()-new Date(n[i].getAttribute('data-since')))/36e5);if(h<1)h=1;n[i].textContent=h<72?h+(h===1?' hour':' hours')+' ago':Math.floor(h/24)+' days ago'}}u();setInterval(u,60000)})();
